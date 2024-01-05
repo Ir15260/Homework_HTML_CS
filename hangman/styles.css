@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0bb80b;
+  text-align: center;
+}
+
+#alphabet button {
+  margin: 3px;
+  padding: 10px;
+  border: none;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+#alphabet button.correct {
+  background-color: #a4dca4;
+}
+
+#alphabet button.incorrect {
+  background-color: #e9a6a6;
+}
+
+#hold {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#mylives {
+  color: red;
+}
+
+#hint {
+  margin-top: 20px;
+}
+
+#reset {
+  margin-top: 20px;
+}
