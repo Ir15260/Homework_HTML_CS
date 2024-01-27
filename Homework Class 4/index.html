@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="logoContainer">
+        <img src="img/logo.png" alt="Logo">
+    </div>
+
+ 
+    <div id="buttonContainer">
+        <div id="fetchaButtonContainerPeople">
+            <button id="fetchButtonPeople"><img src="img/cosmonaut.svg" alt="Cosmonaut"> People Info</button>
+        </div>
+        <div id="fetchButtonContainerShips">
+            <button id="fetchButtonShips"><img src="img/rocket.svg" alt="Rocket"> Ships Info</button>
+        </div>
+    </div>
+
+    <!-- ===========People Data============= -->
+    <table id="peopleTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Height (cm)</th>
+                <th>Mass (kg)</th>
+                <th>Gender</th>
+                <th>Birth Year</th>
+                <th>Appearances</th>
+            </tr>
+        </thead>
+        <tbody id="peopleTableBody"></tbody>
+    </table>
+
+    <div id="navigationButtonContainerPeople" style="display: none;">
+        <button id="nextButtonPeople">NEXT 10</button>
+        <button id="prevButtonPeople">PREVIOUS 10</button>
+    </div>
+
+    <!--================ Ships Data================== -->
+    <table id="shipsTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Model</th>
+                <th>Manufacturer</th>
+                <th>Cost</th>
+                <th>People Capacity</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody id="shipsTableBody"></tbody>
+    </table>
+
+    <div id="navigationButtonContainerShips" style="display: none;">
+        <button id="nextButtonShips">NEXT 10</button>
+        <button id="prevButtonShips">PREVIOUS 10</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

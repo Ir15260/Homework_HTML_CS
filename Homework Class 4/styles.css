@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: yellow;
+}
+
+/* Logo styling */
+#logoContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logoContainer img {
+    max-width: 700px;
+    height: auto;
+}
+
+/* Image Container styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container img {
+    /* Adjust as needed */
+    width: 100px; /* Example size */
+    height: auto;
+}
+
+/* Button Container styling */
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Data and header color styling */
+table {
+    color: white;
+  
+  
+    color: white; 
+    width: 80%; /* Adjust the width as necessary */
+    margin: 0 auto; /* Centers the table horizontally */
+    border-collapse: separate; /* Use separate border spacing */
+    border-spacing: 20px; /* Adjust the space between cells */
+}
+
+th {
+    color: yellow;
+    padding: 10px; /* Adjust the padding inside cells */
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none; /* This will remove the border */
+    outline: none; 
+}
+
+button img {
+    max-width: 200px; /* Adjust as needed */
+}
+
+/* Navigation buttons */
+#navigationButtonContainerShips button,
+#navigationButtonContainerPeople button {
+    color: yellow; /* Text color for buttons */
+    background-color: #000000; /* Optional: Change background color as needed */
+    border: 1px solid yellow; /* Optional: Add a yellow border */
+    padding: 10px 20px; /* Add some padding */
+    margin: 5px; /* Add some margin */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+
+
+
+/* Optional: Center images vertically within buttons */
+button img {
+    vertical-align: middle;
+}
